@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the dataset and extract inputs and output
-dataset = pd.read_csv("dataset.csv")
+dataset = pd.read_excel("dataset.xlsx")
 inputs = dataset.iloc[:, :-1].values
 output = dataset.iloc[:, -1].values
 
